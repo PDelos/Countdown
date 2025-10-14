@@ -1,0 +1,4 @@
+example.com, www.example.com {
+    reverse_proxy sveltekit:3000
+    encode gzip
+}
